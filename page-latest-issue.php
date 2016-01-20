@@ -31,7 +31,7 @@
         
             <?php
             echo get_the_content(); ?>
-          </div>
+          </div> <!--latest-issue-->
 
           <?php
           endwhile;

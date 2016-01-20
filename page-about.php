@@ -84,7 +84,7 @@
 					<div class="singleperson">
 						<img class="photo" src="<?php bloginfo('stylesheet_directory'); ?>/images/about/events/david.jpg" alt="Deputy VP">
 						<div class="photodescription">
-							<h5>David Yam<br>Deputy Vice President</h5>
+							<h5>David Yam<br>Strategic Planning Director</h5>
 							<p>Class of 2016</p>
 						</div>
 

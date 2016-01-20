@@ -2618,6 +2618,10 @@ img.bgM {
     padding: 20px 0;
   }
 
+  .galleryoflogos {
+    width: 92%;
+  }
+
   .clubdetails h5 {
     margin: 8px 0 0 0;
     font-size: 12px;
@@ -2659,21 +2663,21 @@ img.bgM {
 
 
 /* Starting and Pitching Fifth Rows Segment */
-.startingandpitching {
+.sacandpitching {
   padding: 50px 0;
   width: 100%;
   background-color: #424c4c;
   text-align: center;
 }
 
-.startingandpitchingcontent {
+.sacandpitchingcontent {
   display: inline-block;
   width: 76%;
   text-align: center;
   font-size: 0;
 }
 
-.starting, 
+.sac, 
 .pitching {
   display: inline-block;
   padding: 0 20px;
@@ -2681,7 +2685,7 @@ img.bgM {
   vertical-align: top;
 }
 
-.starting h2,
+.sac h2,
 .pitching h2 {
   display: inline-block;
   margin: 0 0 20px 0;
@@ -2695,7 +2699,7 @@ img.bgM {
   border: 1px solid #777;
 }
 
-.starting p,
+.sac p,
 .pitching p {
   display: inline-block;
   width: 90%;
@@ -2715,11 +2719,11 @@ img.bgM {
   color: #00897B;
 }
 
-.starting button,
+.sac button,
 .pitching button {
   margin: 20px auto;
   padding: 8px 0;
-  width: 70%;
+  width: 78%;
   border: none;
   border-radius: 4px;
   font-family: 'Montserrat', sans-serif;
@@ -2732,7 +2736,7 @@ img.bgM {
   transition: all 0.25s ease;
 }
 
-.starting button:hover,
+.sac button:hover,
 .pitching button:hover {
   background-color: #626f68;
   color: #ddd;
@@ -2740,47 +2744,47 @@ img.bgM {
 
 @media screen and (max-width: 767px) {
 
-  .startingandpitchingcontent {
+  .sacandpitchingcontent {
     width: 90%;
   }
 
-  .starting,
+  .sac,
   .pitching {
     margin: 20px 0;
     width: 100%;
   }
 
-  .starting h2,
+  .sac h2,
   .pitching h2 {
     padding: 8px 20px;
     min-width: 31%;
   }
 
-  .starting p,
+  .sac p,
   .pitching p {
     font-size: 14px;
     width: 70%;
     max-width: none;
   }
 
-  .starting button,
+  .sac button,
   .pitching button {
     width: 58%;
   }
 }
 
 @media screen and (max-width: 500px) {
-  .starting button,
+  .sac button,
   .pitching button {
-    width: 60%;
+    width: 94%;
   }
 
-  .starting h2,
+  .sac h2,
   .pitching h2 {
     font-size: 18px;
   }
 
-  .starting p,
+  .sac p,
   .pitching p {
     width: 94%;
   }
