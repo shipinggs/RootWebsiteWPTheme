@@ -17,7 +17,7 @@
 				<h1>GENERAL<br>FEEDBACK & ENQUIRIES</h1>
 
 				<?php // Getting feedback form from a special category of posts
-						$generalFeedbackPosts = new WP_Query('cat=10&posts_per_page=2&orderby=title&order=ASC');
+						$generalFeedbackPosts = new WP_Query('cat=10&orderby=title&order=ASC');
 
 
 						if ($generalFeedbackPosts->have_posts()) {
@@ -48,7 +48,7 @@
 			<div class="corporateright">
 				<p>
 					If you are a business looking to tie up student offers and promotions with our school, or for any other form of partnership, please contact: 
-					<a href="mailto:communications@studentgov.sutd.edu.sg" style="text-decoration: none; color:#668866;">communications@studentgov.sutd.edu.sg</a>
+					<a href="mailto:pr@studentgov.sutd.edu.sg" style="text-decoration: none; color:#668866;">pr@studentgov.sutd.edu.sg</a>
 				</p>	
 			</div>
 			</div>
