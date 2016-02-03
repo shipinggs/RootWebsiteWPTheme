@@ -291,7 +291,6 @@ div, h1, h2, h3, h4, h5, p, span {
 
 /* ===== Navbar current page SELECTED =====  */
 
-.navbar li.current-menu-item a:link,
 .navbar li.current-menu-item a:visited {
   color: #e8e8e8;
 }
@@ -300,13 +299,10 @@ div, h1, h2, h3, h4, h5, p, span {
   color: #777;
 }
 
-.navbar li.current-menu-item .sub-menu a:hover {
+.navbar li.current-menu-item .sub-menu li:hover a {
   color: #dddddd;
 }
 
-.navbar .sub-menu li.current-menu-item a:visited {
-  color: #dddddd;
-}
 
 .navbar li.current-menu-item.menu-item-93 > a {
   background: url("images/tldrlogogray.png") no-repeat;
@@ -348,11 +344,11 @@ div, h1, h2, h3, h4, h5, p, span {
 
 /* ===== Navbar children page SELECTED ===== */
 
-.navbar li.current-page-ancestor > a:visited {
+.navbar li.current-menu-ancestor > a:visited {
   color: #e8e8e8;
 }
 
-.navbar li.current-page-ancestor.menu-item-93 > a {
+.navbar li.current-menu-ancestor.menu-item-93 > a {
   background: url("images/tldrlogogray.png") no-repeat;
   width: 90px;
   height: 50px;
@@ -363,12 +359,16 @@ div, h1, h2, h3, h4, h5, p, span {
   background-position: center;
 }
 
+.navbar li.current-menu-ancestor.menu-item-93 .sub-menu li:hover a {
+	color: #dddddd;
+}
+
 
 @media screen and (max-width: 801px) { 
-  .navbar li.current-page-ancestor > a:visited {
+  .navbar li.current-menu-ancestor > a:visited {
     color: #000;
   }
-  .navbar li.current-page-ancestor.menu-item-93 > a {
+  .navbar li.current-menu-ancestor.menu-item-93 > a {
     background: url("images/tldrlogogray.png") no-repeat;
     margin-left: 21px;
     width: 100%;
@@ -543,7 +543,7 @@ ul.sub-menu a:visited {
 /* Submenu link hover color (does not apply fully at tldr page, see above styles -
   navbar current page selected segment) */
 .navbar .sub-menu li:hover a { 
-  color: #ddd;
+  color: #dddddd;
 }
 
 /* Cache Submenu placement */
@@ -944,7 +944,7 @@ img.bgM {
   margin-bottom: 20px;
   padding: 0;
   width: 66%;
-  max-width: 960px;
+  max-width: 800px;
   min-width: 660px;
   font-size: 0;
   text-align: left;
@@ -2384,7 +2384,7 @@ img.bgM {
   padding: 32px 0;
   width: 100%;
   text-align: center;
-  background-color: #eee;
+  background-color: #424c4c;
 }
 
 .fifthrowexistingclubscontent {
@@ -2403,12 +2403,12 @@ img.bgM {
   font-size: 36px;
   font-weight: bold;
   letter-spacing: 0px;
-  color: #ccc;
-  transition: all 0.35s ease;
+  color: #515a5a;
+  transition: all 0.25s ease;
 }
 
 .fifthrowexistingclubscontent.past-anchor > h2 {
-  color: #111;
+  color: #dddddd;
   letter-spacing: 1.4px;
 }
 
@@ -2416,17 +2416,17 @@ img.bgM {
   margin: 18px 0;
   font-family: 'Varela Round', sans-serif;
   font-size: 15px;
-  color: #666;
+  color: #aaaaaa;
 }
 
 .fifthrowexistingclubscontent p a {
   text-decoration: none;
-  color: #748E9A;
+  color: #748EAA;
 }
 
 .fifthrowexistingclubscontent p a:hover {
   text-decoration: none;
-  color: #445E6A;
+  color: #00796B;
 }
 
 .fifthrowexistingclubscontent .fifthrowcluster {
@@ -2436,7 +2436,7 @@ img.bgM {
   border-radius: 6px;
   overflow: hidden;
   background-color: #333;
-  transition: all 0.2s ease;
+  transition: all 0.25s ease;
 }
 
 
@@ -2504,9 +2504,11 @@ img.bgM {
     width: 43%;
   }
 
-  .fifthrowexistingclubscontent .fifthrowcluster h2 {
+  .fifthrowcluster h2 {
     padding: 84px 0;
-    font-size: 18px;
+    font-size: 22px;
+    color: #fff;
+    opacity: 0.7;
   }
 }
 
@@ -2523,7 +2525,7 @@ img.bgM {
     margin: 8px 0;
     padding: 12px 0;
     width: 100%;
-    background-color: #78909C;
+    background-color: #626c6c;
   }
 
   .fifthrowexistingclubscontent.past-anchor .fifthrowcluster {
@@ -2537,86 +2539,109 @@ img.bgM {
     background: none;
   } 
 
-  .fifthrowexistingclubscontent .fifthrowcluster h2 {
+  .fifthrowcluster h2 {
     padding: 0;
-    font-size: 16px;
+    font-size: 13px;
+    line-height: 16px;
     opacity: 1;
-    color: #B0BEC5;
+    color: #515a5a;
     transition: all 0.2s ease;
   }
 
   .fifthrowexistingclubscontent.past-anchor .fifthrowcluster h2 {
     color: #eee;
+    font-size: 16px;
   }
 }
 
 /* All Banners */
 .banner {
-  padding: 200px 0;
-  width: 100%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 60px;
+  padding: 0;
+  padding-top: 48px;
+  padding-bottom: 24px;
+  width: 66%;
+  border-bottom: 1px solid #bbb;
   text-align: center;
   background-color: #000;
 }
 
 .banner h1 {
-  margin: 20px 10px;
+  margin: 20px 0;
   font-family: 'Pacifico', cursive;
   font-size: 40px;
-  color: #fff;
+  color: #111;
 }
 
 .artsbanner {
   background: url("images/fifth_row/artsbanner.jpg");
+  background: none;
   background-size: cover;
   background-position: center;
-  background-color: #222;
+  background-color: transparent;
 }
 
 .socialbanner {
   background: url("images/fifth_row/socialbanner.jpg");
+  background: none;
   background-size: cover;
   background-position: center;
-  background-color: #222;
+  background-color: transparent;
 }
 
 .specialistsbanner {
   background: url("images/fifth_row/specialistsbanner.jpg");
+  background: none;
   background-size: cover;
   background-position: center;
-  background-color: #222;
+  background-color: transparent;
 }
 
 .sportsbanner {
   background: url("images/fifth_row/sportsbanner.jpg");
+  background: none;
   background-size: cover;
   background-position: center;
-  background-color: #222;
+  background-color: transparent;
 }
 
 @media screen and (max-width: 801px) {
-  .banner {
-    padding: 120px 0;
-  }
 
   .banner h1 {
-    font-size: 28px;
+    font-size: 36px;
   }
+}
+
+@media screen and (max-width: 500px) {
+	.banner {
+		margin-top: 24px;
+	}
+
+	.banner h1 {
+		font-size: 24px;
+		margin: 0;
+	}
 }
 
 /* Gallery of logos */
 .cluster {
-  padding: 50px 0;
-  width: 100%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 48px;
+  padding: 0;
+  width: 90%;
   text-align: center;
 }
 
 
 .galleryoflogos {
-  display: inline-block;  
-  margin: 20px 0;
+  display: block;  
+  margin: 20px auto;
   padding: 0;
   width: 86%;
-  max-width: 1100px;
+  max-width: 1000px;
   font-size: 0;
   text-align: left;
 }
@@ -2631,7 +2656,7 @@ img.bgM {
 }
 
 .clublogo {
-  width: 66%;
+  width: 61.8%;
   border-radius: 999px;
   -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, .175);
           box-shadow: 0 2px 3px rgba(0, 0, 0, .175);
@@ -2639,7 +2664,7 @@ img.bgM {
 
 .clubdetails h5 {
   display: inline-block;
-  margin: 6px auto;
+  margin: 8px auto;
   width: 84%;
   padding: 0 8px;
   font-family: 'Montserrat', sans-serif;
@@ -2673,14 +2698,15 @@ img.bgM {
   }
 
   .clublogo {
-    width: 68%;
+    width: 66%;
   }
 }
 
 @media screen and (max-width: 801px) {
   
   .cluster {
-    padding: 20px 0;
+  	margin-top: 24px;
+    width: 94%;
   }
 
   .galleryoflogos {
@@ -2688,8 +2714,8 @@ img.bgM {
   }
 
   .clubdetails h5 {
-    margin: 8px 0 0 0;
-    font-size: 12px;
+    margin: 8px 0;
+    font-size: 13px;
   }
 
   .singleclub .clubicons {
@@ -2697,7 +2723,7 @@ img.bgM {
   }
 
   .clublogo {
-    width: 72%;
+    width: 62%;
   }
 
   .icon {
@@ -2706,7 +2732,9 @@ img.bgM {
 }
 
 @media screen and (max-width: 500px) {
-
+	.cluster {
+		width: 96%;
+	}
 
   .singleclub {
     width: 33.33%;
@@ -2718,6 +2746,7 @@ img.bgM {
 
   .clubdetails h5 {
     width: 98%;
+    margin: 8px 0 0 0;
     font-size: 10px;
   }
 
@@ -2730,6 +2759,7 @@ img.bgM {
 /* Starting and Pitching Fifth Rows Segment */
 .sacandpitching {
   padding: 50px 0;
+  margin-top: 90px;
   width: 100%;
   background-color: #424c4c;
   text-align: center;
@@ -2777,12 +2807,12 @@ img.bgM {
 }
 
 .pitching p a {
-  color: #16968A;
+  color: #748EAA;
   text-decoration: none;
 }
 
 .pitching p a:hover {
-  color: #00897B;
+  color: #00796B;
 }
 
 .sac button,
@@ -3188,7 +3218,6 @@ img.bgM {
 
   .guidesandformscontent p {
     margin-top: 4px;
-    vertical-align: top;
     font-size: 13px;
   }
 
@@ -3328,6 +3357,7 @@ img.bgM {
 }
 
 .singleitem img {
+	display: none;
   padding: 0;
   margin: 0;
   width: 0;
@@ -3336,6 +3366,7 @@ img.bgM {
 
 
 .singleitem p > img {
+	display: block;
   width: 100%;
   height: auto;
   border-top-left-radius: 8px;
@@ -3433,10 +3464,16 @@ img.bgM {
 
 /* navbar anchor tweak */
 .navbaranchortweak {
-  position: fixed;
+  position: absolute;
   bottom: 0;
   width: 100%;
   z-index: 9999;
+}
+
+@media screen and (max-width: 801px) {
+	.navbaranchortweak {
+		position: fixed;
+	}
 }
 
 

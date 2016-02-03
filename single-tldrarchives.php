@@ -15,31 +15,42 @@
   </head>
 
   <body <?php body_class(); ?>>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-72760836-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
     
 
-  <div class="site-content" style="margin-top: -24px; padding-bottom: 70px; background-color: #f7f7f7; text-align: center;">
-      <div class="latest-issue-header" style="z-index:9999; background: #333; box-shadow: 0px 3px 5px 0px black; -moz-box-shadow: 0px 3px 5px 0px black; -webkit-box-shadow: 0px 3px 5px 0px black;">
-        <p class="latest-issue-date" style="padding-top: 30px; padding-bottom:10px; color: #d9d9d9; font-family: Montserrat, sans-serif; letter-spacing:0px; font-weight:700; font-size: 18px; ">tl;dr Archives<br> <?php the_time('F j, Y'); ?></p>
-        <p style="padding-bottom: 30px;"><a class="btn-a" style="text-decoration: none; font-family: Montserrat, sans-serif; letter-spacing:1px; font-weight:400; font-size: 13px; color:#d9d9d9; background-color: transparent; padding: 6px 38px; border: 2px solid #d9d9d9; border-radius: 4px;" href="<?php echo wp_get_referer(); ?>">&lsaquo; Back &nbsp;</a></p>
-      </div>
+    <div class="site-content" style="margin-top: -24px; padding-bottom: 70px; background-color: #f7f7f7; text-align: center;">
+        <div class="latest-issue-header" style="z-index:9999; background: #333; box-shadow: 0px 3px 5px 0px black; -moz-box-shadow: 0px 3px 5px 0px black; -webkit-box-shadow: 0px 3px 5px 0px black;">
+          <p class="latest-issue-date" style="padding-top: 30px; padding-bottom:10px; color: #d9d9d9; font-family: Montserrat, sans-serif; letter-spacing:0px; font-weight:700; font-size: 18px; ">tl;dr Archives<br> <?php the_time('F j, Y'); ?></p>
+          <p style="padding-bottom: 30px;"><a class="btn-a" style="text-decoration: none; font-family: Montserrat, sans-serif; letter-spacing:1px; font-weight:400; font-size: 13px; color:#d9d9d9; background-color: transparent; padding: 6px 38px; border: 2px solid #d9d9d9; border-radius: 4px;" href="<?php echo wp_get_referer(); ?>">&lsaquo; Back &nbsp;</a></p>
+        </div>
 
-      <div class="latest-issue" style="max-width:100%; margin: auto; margin-top: -10px; z-index:-9999">
+        <div class="latest-issue" style="max-width:100%; margin: auto; margin-top: -10px; z-index:-9999">
 
 
-        <?php if (have_posts()) {
-          while (have_posts()): the_post(); ?>
-        
+          <?php if (have_posts()) {
+            while (have_posts()): the_post(); ?>
+          
+              <?php
+              echo get_the_content(); ?>
+            </div>
+
             <?php
-            echo get_the_content(); ?>
-          </div>
+            endwhile;
+          } else {
+              echo '<p>No content found</p>';
+            } ?>
+      <p style="padding-top: 10px;"><a style="text-decoration: none; font-family: Montserrat, sans-serif; letter-spacing:1px; font-weight:400; font-size: 13px; color:#f7f7f7; background-color: #555; padding: 8px 40px; border-radius: 4px;" href="<?php echo wp_get_referer(); ?>">&lsaquo; Back &nbsp;</a></p>
+    </div>
 
-          <?php
-          endwhile;
-        } else {
-            echo '<p>No content found</p>';
-          } ?>
-    <p style="padding-top: 10px;"><a style="text-decoration: none; font-family: Montserrat, sans-serif; letter-spacing:1px; font-weight:400; font-size: 13px; color:#f7f7f7; background-color: #555; padding: 8px 40px; border-radius: 4px;" href="<?php echo wp_get_referer(); ?>">&lsaquo; Back &nbsp;</a></p>
-  </div>
-
-</body>
-</html>
+  </body>
+  </html>
