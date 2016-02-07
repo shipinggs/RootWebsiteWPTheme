@@ -20,4 +20,8 @@ jQuery(document).ready(function($) {
 
 		});
 
+		$(".cat_holiday").prev().css({
+			background: 'red'
+		});
+
 });

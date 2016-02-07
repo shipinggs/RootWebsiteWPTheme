@@ -366,7 +366,7 @@ div, h1, h2, h3, h4, h5, p, span {
 
 @media screen and (max-width: 801px) { 
   .navbar li.current-menu-ancestor > a:visited {
-    color: #000;
+    color: #e8e8e8;
   }
   .navbar li.current-menu-ancestor.menu-item-93 > a {
     background: url("images/tldrlogogray.png") no-repeat;
@@ -2148,6 +2148,11 @@ img.bgM {
   #tribe-events-content td.tribe-events-present {
     background-color: #FFC107;
   }
+}
+
+/* To create different cell colour for holidays */
+#tribe-events-content table.tribe-events-calendar tbody tr td div.cat_holiday h3 a {
+	color: red;
 }
 
 
