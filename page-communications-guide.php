@@ -137,6 +137,10 @@
 						For posters publicizing events that take place over a long period of time (i.e. approximately 6 months), they may be removed before the closing date of the event to make way for newer items if necessary. Office of Campus Development staff will assess each poster of this nature on a case-by-case basis.
 					</p>
 					<p>
+						1) Allow events that involve ticket sales to put their posters up 2 months before the event date till the event itself, or
+						2) Put your posters up before the 2 months point, but have no guarantee that your posters will still be up on the event date itself i.e. it will make way for newer posters should there be a lack of space for newer posters.
+					</p>
+					<p>
 						We reserve the right to remove any unapproved or unremoved posters. The number of violations will be deducted from your student organization’s quota. The quota will only be reset on January during pitching.
 					</p>
 					<h5>Hostel</h5>

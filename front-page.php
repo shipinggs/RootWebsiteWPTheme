@@ -104,11 +104,11 @@
      this[i] = ' '
    }
  }
- image = new ImageArray(4)
+ image = new ImageArray(1)
  image[0] = 'background1.jpg'
- image[1] = 'background2.jpg'
- image[2] = 'background3.jpg'
- image[3] = 'background4.jpg'
+ // image[1] = 'background2.jpg'
+ // image[2] = 'background3.jpg'
+ // image[3] = 'background4.jpg'
  var rand = 60/image.length
  function randomimage() {
  	currentdate = new Date()
