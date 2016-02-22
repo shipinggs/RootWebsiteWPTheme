@@ -3910,6 +3910,12 @@ img.bgM {
   margin: 12px 0;
 }
 
+.guidebodycontent section img.poster {
+	-webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .275);
+		 -moz-box-shadow: 0 3px 9px rgba(0, 0, 0, .275);
+          box-shadow: 0 3px 9px rgba(0, 0, 0, .275);
+}
+
 @media screen and (max-width: 801px) {
   .guidebodycontent {
     width: 84%;

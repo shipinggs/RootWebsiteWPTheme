@@ -59,7 +59,7 @@
 							<form method="get" target="_blank" action="<?php bloginfo('stylesheet_directory'); ?>/guidelinesandforms/SUTD_Identity_Guidelines.pdf">
 							<button type="submit">Marketing Guide</button>
 							</form>
-							<form method="get" target="_blank" action="<?php bloginfo('stylesheet_directory'); ?>/guidelinesandforms/Communications.zip">
+							<form method="get" action="<?php echo get_permalink(428); ?>">
 							<button type="submit">Comms. Guide</button>
 							</form>
 						</div>
