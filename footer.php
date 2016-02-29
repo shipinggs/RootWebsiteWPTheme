@@ -22,9 +22,9 @@
 				<li class="child"><a href="<?php echo get_permalink(112); ?>">OPPORTUNITIES</a></li>
 			</ul>
 		</div>
-		<div class="footerfooter">
-			<span class="footerorganisationname">ROOT : SUTD Student Government&nbsp;&nbsp;</span><span>&nbsp;&nbsp;2016</span>
-		</div>
+	</div>
+	<div class="footerfooter">
+		<span class="footerorganisationname">ROOT : SUTD Student Government&nbsp;&nbsp;</span><span>&nbsp;&nbsp;2016</span>
 	</div>
 </footer>
 
