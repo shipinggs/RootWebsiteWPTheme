@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="<?php bloginfo('charset'); ?>">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">   
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">   
 
 		<title><?php bloginfo('name'); ?></title>
 		<?php wp_enqueue_script("jquery"); ?>
