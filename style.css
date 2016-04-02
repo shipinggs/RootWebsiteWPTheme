@@ -30,6 +30,7 @@ Version: 1.0
 /* ===================================================== */
 
 
+
 /* ==================== General ==================== */
 
 .htmlwrapper, body {   /* Not html type because that will affect front page display of images */
@@ -254,8 +255,8 @@ div, h1, h2, h3, h4, h5, p, span {
     border-width: 0px;
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 1px;
-    padding-bottom: 1px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     font-size: 14px;
     letter-spacing: 0.618px;
     font-family: 'Archivo Narrow', sans-serif;
@@ -275,7 +276,7 @@ div, h1, h2, h3, h4, h5, p, span {
 .navbar-brand {
   font-family: "Montserrat",sans-serif;
   letter-spacing: 6px;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: ;
 }
 
@@ -396,7 +397,7 @@ div, h1, h2, h3, h4, h5, p, span {
 
 /* === FOR FRONTPAGE ONLY - navbar active text color === */
 .fpnavbar-head {
-	background: rgba(0,0,10,0.51);
+	background: rgba(0,0,24,0.43);
 	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, .275);
           box-shadow: 0 1px 4px rgba(0, 0, 0, .275);
 }
@@ -1138,7 +1139,7 @@ img.bgM {
   padding: 140px 28px;
   background: url("images/contact/contactheadbg.jpg");
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   background-color: #555;
   width: 100%;
   text-align: center;
