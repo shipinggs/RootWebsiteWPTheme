@@ -1424,6 +1424,7 @@ img.bgM {
   width: 59%;
   text-align: left;
   font-family: "Varela Round", sans-serif;
+  font-size: 16px;
   color: #aaa;
 }
 
@@ -2450,7 +2451,7 @@ img.bgM {
 }
 
 .fifthrowexistingclubscontent.past-anchor > h2 {
-  color: #dddddd;
+  color: #eeeeee;
   letter-spacing: 1.4px;
 }
 

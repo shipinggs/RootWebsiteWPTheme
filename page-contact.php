@@ -6,7 +6,7 @@
 			<h1>CONTACT US</h1>
 			<p class="threetypescontact">
 				<a class="cbtn generalfeedbackbtn" href="#generalfeedback">FEEDBACK + ENQUIRIES</a>
-				<a class="cbtn academicfeedbackbtn" href="#academicfeedback">ACADEMIC FEEDBACK</a>
+				<!-- <a class="cbtn academicfeedbackbtn" href="#academicfeedback">ACADEMIC FEEDBACK</a> -->
 				<a class="cbtn corporateenquiriesbtn" href="#corporateenquiries">CORPORATE ENQUIRIES</a>
 			</p>
 		</section>
@@ -32,13 +32,16 @@
 						wp_reset_postdata(); ?>
 			</div>
 		</section>
+		
 
-		<section id="academicfeedback" class="academicfeedback contactsegment">
+		<!-- DELETED SEGMENT FOR FUTURE REVIEW -->
+		<!-- <section id="academicfeedback" class="academicfeedback contactsegment">
 			<div class="academicfeedbackform">
 				<h1>ACADEMIC FEEDBACK</h1>
 				<p>This will be available shortly</p>
 			</div>
-		</section>
+		</section> -->
+		
 		
 		<section id="corporateenquiries" class="corporateenquiries contactsegment">
 			<div class="corporatecontent">
