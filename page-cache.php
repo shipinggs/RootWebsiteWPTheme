@@ -43,11 +43,14 @@
 				<ul>
 					<li>
 						<p>
-							Organizing an event<br>(EPF link is within)
+							Organizing an event
 						</p>
 						<div>
 							<form method="get" target="_blank" action="<?php bloginfo('stylesheet_directory'); ?>/guidelinesandforms/Event_Proposal_Guidelines.pdf">
 							<button type="submit">Event Proposal Guide</button>
+							</form>
+							<form method="get" target="_blank" action="<?php bloginfo('stylesheet_directory'); ?>/guidelinesandforms/EventForms.zip">
+							<button type="submit">Event Forms</button>
 							</form>
 						</div>
 					</li>
