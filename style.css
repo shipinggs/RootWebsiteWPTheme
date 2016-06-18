@@ -251,7 +251,7 @@ div, h1, h2, h3, h4, h5, p, span {
     position: fixed;
     width: 100%;
     background-color: transparent;
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
     border-width: 0px;
     padding-left: 10px;
     padding-right: 10px;
@@ -605,7 +605,6 @@ li:hover.menu-item-103 > .sub-menu{
     border-top: 1px solid #444;
     width: 110%;
 		overflow: hidden;
-    transition: all 0.11s linear;
     -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, .375);
             box-shadow: 0 2px 3px rgba(0, 0, 0, .375);
   }
