@@ -24,7 +24,7 @@
 		</div>
 	</div>
 	<div class="footerfooter">
-		<span class="footerorganisationname">ROOT : SUTD Student Government&nbsp;&nbsp;</span><span>&nbsp;&nbsp;2016</span>
+		<span class="footerorganisationname">ROOT : SUTD Student Government</span>
 	</div>
 </footer>
 

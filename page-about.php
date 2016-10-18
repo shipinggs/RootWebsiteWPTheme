@@ -19,7 +19,7 @@
 					<div class="singleperson">
 						<img class="photo" src="<?php bloginfo('stylesheet_directory'); ?>/images/about/events/shalv.jpg" alt="President">
 						<div class="photodescription">
-							<h5>Shalv Amit Parekh<br>President</h5>
+							<h5>Shalv Amit Parekh<br>One man army</h5>
 							<p>Class of 2018</p>
 							<!-- <a href="mailto:president@studentgov.sutd.edu.sg"><img class="excoemail" src="<?php bloginfo('stylesheet_directory'); ?>/images/emailiconblack.png"></a> -->
 						</div>

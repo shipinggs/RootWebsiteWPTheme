@@ -69,7 +69,7 @@ div, h1, h2, h3, h4, h5, p, span {
   left: 0;
   width: 100%;
   min-height: 315px;
-  background-color: #262626;  
+  background-color: #262626;
   text-align: center;
   border-top: 1px solid #2f2f2f;
 
@@ -94,7 +94,7 @@ div, h1, h2, h3, h4, h5, p, span {
   font-size: 28px;
   line-height: 64px;
   letter-spacing: 6px;
-  font-weight: bold; 
+  font-weight: bold;
 }
 
 .footercontent .footerlogo a {
@@ -159,12 +159,8 @@ div, h1, h2, h3, h4, h5, p, span {
 }
 
 
-.footerfooter .footerorganisationname {
-  border-right: 1px solid #555;
-}
-
 @media screen and (max-width: 801px) {
-  
+
   .pagecontainer,
   .tldrsegment,
   #tribe-events {
@@ -296,7 +292,7 @@ div, h1, h2, h3, h4, h5, p, span {
   color: #c9c9c9;
 }
 
-@media screen and (max-width: 801px) { 
+@media screen and (max-width: 801px) {
 	.navbar div.container {
 		width: 100%;
 	}
@@ -325,7 +321,7 @@ div, h1, h2, h3, h4, h5, p, span {
   width: 90px;
   height: 50px;
   margin: 0 0px;
-  padding: 0; 
+  padding: 0;
   text-indent: -9999px;
   background-size: 66%;
   background-position: center;
@@ -340,7 +336,7 @@ div, h1, h2, h3, h4, h5, p, span {
   color: #dddddd;
 }
 
-@media screen and (max-width: 801px) { 
+@media screen and (max-width: 801px) {
 
   /* Toggle menu link selected colours */
   .navbar li.current-menu-item > a:visited {
@@ -369,7 +365,7 @@ div, h1, h2, h3, h4, h5, p, span {
   width: 90px;
   height: 50px;
   margin: 0 0px;
-  padding: 0; 
+  padding: 0;
   text-indent: -9999px;
   background-size: 66%;
   background-position: center;
@@ -380,7 +376,7 @@ div, h1, h2, h3, h4, h5, p, span {
 }
 
 
-@media screen and (max-width: 801px) { 
+@media screen and (max-width: 801px) {
   .navbar li.current-menu-ancestor > a:visited {
     color: #e8e8e8;
   }
@@ -419,7 +415,7 @@ div, h1, h2, h3, h4, h5, p, span {
   color: #fff;
 }
 
-@media screen and (max-width: 801px) { 
+@media screen and (max-width: 801px) {
   .fpnavbar-head .fpnavbar > ul > li > a,
   .fpnavbar-head .fpnavbar > .navbar-brand {
     color: #999;
@@ -459,7 +455,7 @@ li.menu-item-93 > a {
   width: 90px;
   height: 50px;
   margin: 0 0px;
-  padding: 0; 
+  padding: 0;
   text-indent: -9999px;
   background-size: 60%;
   background-position: center;
@@ -470,7 +466,7 @@ li.menu-item-93 > a:hover {
   width: 90px;
   height: 50px;
   margin: 0 0px;
-  padding: 0; 
+  padding: 0;
   text-indent: -9999px;
   background-size: 60%;
   background-position: center;
@@ -481,7 +477,7 @@ li.menu-item-93 > a:hover {
   width: 90px;
   height: 50px;
   margin: 0 0px;
-  padding: 0; 
+  padding: 0;
   text-indent: -9999px;
   background-size: 60%;
   background-position: center;
@@ -492,7 +488,7 @@ li.menu-item-93 > a:hover {
   width: 90px;
   height: 50px;
   margin: 0 0px;
-  padding: 0; 
+  padding: 0;
   text-indent: -9999px;
   background-size: 60%;
   background-position: center;
@@ -560,13 +556,13 @@ ul.sub-menu a:visited {
   padding: 6px 6px;
 }
 
-.sub-menu li a { 
+.sub-menu li a {
   color: #888;
 }
 
 /* Submenu link hover color (does not apply fully at tldr page, see above styles -
   navbar current page selected segment) */
-.navbar .sub-menu li:hover a { 
+.navbar .sub-menu li:hover a {
   color: #dddddd;
 }
 
@@ -628,7 +624,7 @@ li:hover.menu-item-103 > .sub-menu{
   /* To hide sub-menu when in toggle menu */
   .navbar .sub-menu {
     display: none;
-  } 
+  }
 }
 /* ===================================================== */
 
@@ -762,7 +758,7 @@ li:hover.menu-item-103 > .sub-menu{
 
 
 @media screen and (max-width: 801px) {
-  
+
   .centrallogo {
     width: 100%;
     height: 180px;
@@ -784,14 +780,14 @@ li:hover.menu-item-103 > .sub-menu{
   .centralbuttons {
   	margin-top: 8px;
   }
-  
+
   .centralbuttons .btn {
     display: block;
     margin: 4px auto;
     width: 48%;
     margin-bottom: 4px;
   }
-  
+
 }
 
 
@@ -822,11 +818,11 @@ img.bgM {
   /* Set rules to fill background */
   min-height: 100%;
   min-width: 1280px;
-  
+
   /* Set up proportionate scaling */
   width: 100%;
   height: auto;
-  
+
   /* Set up positioning */
   position: fixed;
   bottom: 0;
@@ -839,7 +835,7 @@ img.bgM {
   img.bgM {
     left: 62%;
     min-width: none;
-    margin-left: -801px; 
+    margin-left: -801px;
     width: auto;
     bottom: -60px;
   }
@@ -974,7 +970,7 @@ img.bgM {
 }
 
 .galleryofpeople {
-  display: block;  
+  display: block;
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -1073,7 +1069,7 @@ img.bgM {
     margin: 6px 0 0 0;
     width: 20px;
   }
-  
+
   .galleryofpeople {
     width: 74%;
     min-width: 0;
@@ -1329,7 +1325,7 @@ img.bgM {
     font-size: 13px;
     color: #555;
   }
-  
+
   .generalfeedbackform h1 {
     margin: 20px 0;
   }
@@ -1387,7 +1383,7 @@ img.bgM {
     font-size: 13px;
     color: #555;
   }
-  
+
   .academicfeedbackform h1 {
     margin: 20px 0;
   }
@@ -2068,21 +2064,21 @@ img.bgM {
 
 #tribe-events-content table.tribe-events-calendar tbody tr td div.tribe-events-viewmore a {
   color: #26A69A;
-} 
+}
 
 #tribe-events-content table.tribe-events-calendar tbody tr td div.tribe-events-viewmore a:hover {
   color: #000;
-} 
+}
 
 @media screen and (max-width: 801px) {
   #tribe-events-content > h2 {
     margin: 12px 0 12px 0;
     font-size: 16px;
   }
-  
+
   #tribe-events-content table.tribe-events-calendar tbody tr td {
     text-align: center;
-  } 
+  }
 
 	/* ----- Bar within each date cell ----- */
   #tribe-events-content table.tribe-events-calendar tbody tr td::after {
@@ -2099,7 +2095,7 @@ img.bgM {
     font-size: 14px;
     text-align: right;
   }
-  
+
   /* ------ to create date number hover colour change ------ */
   #tribe-events-content td:hover div#tribe-events-daynum-1-0,
   #tribe-events-content td:hover div#tribe-events-daynum-2-0,
@@ -2241,7 +2237,7 @@ img.bgM {
 
 .tribe-events-day-time-slot h5,
 .tribe-events-loop > span {
-  text-align: right; 
+  text-align: right;
   font-size: 18px;
 }
 
@@ -2322,7 +2318,7 @@ img.bgM {
 #tribe-events-content a.tribe-events-ical.tribe-events-button,
 #tribe-events-header,
 #tribe-events-footer {
-  display: none;  
+  display: none;
 }
 
 /* --------------------------------------------------------------------- */
@@ -2562,7 +2558,7 @@ img.bgM {
   .fifthrowexistingclubscontent > h2 {
     font-size: 18px;
   }
-  
+
   .fifthrowexistingclubscontent .fifthrowcluster {
     margin: 8px 0;
     padding: 12px 0;
@@ -2571,7 +2567,7 @@ img.bgM {
   }
 
   .fifthrowexistingclubscontent.past-anchor .fifthrowcluster {
-    background-color: #546E7A; 
+    background-color: #546E7A;
   }
 
   .fifthrowcluster .artscluster,
@@ -2579,7 +2575,7 @@ img.bgM {
   .fifthrowcluster .specialistscluster,
   .fifthrowcluster .sportscluster {
     background: none;
-  } 
+  }
 
   .fifthrowcluster h2 {
     padding: 0;
@@ -2679,7 +2675,7 @@ img.bgM {
 
 
 .galleryoflogos {
-  display: block;  
+  display: block;
   margin: 20px auto;
   padding: 0;
   width: 86%;
@@ -2734,7 +2730,7 @@ img.bgM {
 
 
 @media screen and (max-width: 900px) {
-  
+
   .singleclub {
     width: 25%;
   }
@@ -2745,7 +2741,7 @@ img.bgM {
 }
 
 @media screen and (max-width: 801px) {
-  
+
   .cluster {
   	margin-top: 24px;
     width: 94%;
@@ -2780,7 +2776,7 @@ img.bgM {
 
   .singleclub {
     width: 33.33%;
-  } 
+  }
 
   .clublogo {
     width: 62%;
@@ -2814,7 +2810,7 @@ img.bgM {
   font-size: 0;
 }
 
-.sac, 
+.sac,
 .pitching {
   display: inline-block;
   padding: 0 20px;
@@ -3416,7 +3412,7 @@ img.bgM {
   width: 100%;
   height: auto;
   border-top-left-radius: 8px;
-  border-top-right-radius: 8px; 
+  border-top-right-radius: 8px;
 
   -moz-border-radius-topleft: 8px;
   -moz-border-radius-topright: 8px;
@@ -3443,7 +3439,7 @@ img.bgM {
 
 .singleitem .singleitemdescription {
   border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px; 
+  border-bottom-right-radius: 8px;
   padding: 10px 12px;
   background-color: #333;
 
@@ -4015,4 +4011,3 @@ img.bgM {
   }
 }
 /* ======================================================= */
-
