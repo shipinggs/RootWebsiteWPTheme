@@ -4,6 +4,7 @@
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Root: SUTD Student Government is a student-run organization dedicated to serve the interests of the university's students.">
 
     <title><?php bloginfo('name'); ?></title>
     <?php wp_enqueue_script("jquery"); ?>
