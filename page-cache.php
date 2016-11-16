@@ -66,6 +66,7 @@
 							<button type="submit">Comms. Guide</button>
 							</form>
               <form method="get" target="_blank" action="<?php bloginfo('stylesheet_directory'); ?>/guidelinesandforms/Application_for_Publicity_Material.pdf">
+              <button type="submit">Poster Application Form</button>
 						</div>
 					</li>
 					<li>
