@@ -67,6 +67,7 @@
 							</form>
               <form method="get" target="_blank" action="<?php bloginfo('stylesheet_directory'); ?>/guidelinesandforms/Application_for_Publicity_Material.docx">
               <button type="submit">Poster Application Form</button>
+              </form>
 						</div>
 					</li>
 					<li>
