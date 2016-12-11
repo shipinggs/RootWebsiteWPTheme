@@ -85,8 +85,8 @@
 							Pitching for your Fifth Row
 						</p>
 						<div>
-							<form method="get" action="<?php bloginfo('stylesheet_directory'); ?>/guidelinesandforms/Pitching.zip">
-							<button type="submit">Pitching Package</button>
+							<form method="get" action="<?php bloginfo('stylesheet_directory'); ?>/guidelinesandforms/PulseCheck.zip">
+							<button type="submit">Pulse Check Package</button>
 							</form>
 						</div>
 					</li>
