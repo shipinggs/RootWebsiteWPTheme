@@ -918,11 +918,17 @@ img.bgM {
   font-weight: bold;
 }
 
-
 .ourteam h2 {
   padding: 0 6px;
   font-family: 'Montserrat', sans-serif;
   font-size: 24px;
+}
+
+.personnel {
+  display: block;
+  margin: 0 auto;
+  margin-top: 24px;
+  width: 80%;
 }
 
 .committee {
@@ -1060,6 +1066,10 @@ img.bgM {
     font-size: 16px;
   }
 
+  .personnel {
+    width: 90%;
+  }
+
   .committee-description {
     font-size: 13px;
     width: 70%;
@@ -1087,6 +1097,9 @@ img.bgM {
 }
 
 @media screen and (max-width: 500px) {
+  .personnel {
+    width: 94%;
+  }
 
   .committee-description {
     width: 78%;

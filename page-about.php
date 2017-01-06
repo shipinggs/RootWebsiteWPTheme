@@ -11,23 +11,7 @@
 
 		<section class="ourteam">
 			<h1>OUR TEAM</h1>
-
-			<section class="exco committee">
-				<h2>Executive Committee</h2>
-				<div class="exco-separator"></div>
-				<div class="galleryofpeople">
-					<div class="singleperson">
-						<img class="photo" src="<?php bloginfo('stylesheet_directory'); ?>/images/about/events/shalv.jpg" alt="President">
-						<div class="photodescription">
-							<h5>Shalv Amit Parekh<br>One man army</h5>
-							<p>Class of 2018</p>
-							<!-- <a href="mailto:president@studentgov.sutd.edu.sg"><img class="excoemail" src="<?php bloginfo('stylesheet_directory'); ?>/images/emailiconblack.png"></a> -->
-						</div>
-					</div>
-				</div>
-			</section> <!-- exco -->
-
-
+      <img class="personnel" src="<?php bloginfo('stylesheet_directory'); ?>/images/about/5thRoot.jpg" alt="5th Root">
 		</section><!-- our team -->
 
 
