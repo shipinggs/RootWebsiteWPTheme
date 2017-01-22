@@ -11,16 +11,16 @@
 
 		<?php if (have_posts()) {
 	    while (have_posts()): the_post(); ?>
-	  
+
 	      <?php
 	      echo get_the_content(); ?>
-	    
+
 
 	    <?php
 	    endwhile;
 		  } else {
 		      echo '<p>No content found</p>';
-		    } 
+		    }
 		?>
 
 
@@ -41,8 +41,8 @@
 					<p>
 						Pitching is a yearly event for us to know that your Fifth Row is active and also for clubs to ask for funding.<br><br>Download the pitching package here and submit to <a href="mailto:si@studentgov.sutd.edu.sg">si@studentgov.sutd.edu.sg</a> by the end of the calendar year.
 					</p>
-					<form method="get" action="<?php bloginfo('stylesheet_directory'); ?>/guidelinesandforms/Pitching.zip">
-					<button type="submit">Get Pitching Package</button>
+					<form method="get" action="<?php bloginfo('stylesheet_directory'); ?>/guidelinesandforms/PulseCheck.zip">
+					<button type="submit">Pulse Check Package</button>
 					</form>
 				</div>
 			</div>
@@ -50,6 +50,6 @@
 
 
 
-	</div>	
+	</div>
 
-<?php get_footer(); ?> 
+<?php get_footer(); ?>
