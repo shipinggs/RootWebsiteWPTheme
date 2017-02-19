@@ -29,7 +29,7 @@
 						<li><a href="http://mail.sutd.edu.sg" target="_blank">SUTD Mail</a></li>
 						<li><a href="https://downloads.sutd.edu.sg/cgi-bin/" target="_blank">SUTD Downloads</a></li>
 						<li><a href="https://sutdvpn.sutd.edu.sg/dana-na/auth/url_0/welcome.cgi" target="_blank">SUTD VPN</a></li>
-						<li><a href="http://www.sutdmap.appspot.com/" target="_blank">SUTD Map</a></li>
+						<li><a href="http://sutdmap.appspot.com/" target="_blank">SUTD Map</a></li>
 						<li><a href="https://www.instagram.com/sutdlife/" target="_blank"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/instagramgray.png">&nbsp;&nbsp;sutdlife</a></li>
 						<li><a href="https://www.facebook.com/groups/522995557746987/" target="_blank"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/FBlogo.png">&nbsp;&nbsp;SUTD Family</a></li>
 					</ul>
