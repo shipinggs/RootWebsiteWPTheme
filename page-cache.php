@@ -100,16 +100,6 @@
 							</form>
 						</div>
 					</li>
-					<li>
-						<p>
-							Parking on campus
-						</p>
-						<div>
-							<form method="get" action="<?php echo get_permalink(1679); ?>">
-							<button type="submit">Parking Information</button>
-							</form>
-						</div>
-					</li>
           <li>
 						<p>
 							Housing Allocation Scheme
