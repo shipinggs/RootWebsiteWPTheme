@@ -110,6 +110,16 @@
 							</form>
 						</div>
 					</li>
+          <li>
+						<p>
+							Housing Allocation Scheme
+						</p>
+						<div>
+							<form method="get" action="<?php echo get_permalink(2998); ?>">
+							<button type="submit">Allocation Scheme</button>
+							</form>
+						</div>
+					</li>
 				</ul>
 			</div>
 		</section>
