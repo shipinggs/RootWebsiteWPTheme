@@ -5,7 +5,7 @@
 		<section class="fifthrowhead">
 			<div class="fifthrowheadcontent">
 				<h1>FIFTH ROW</h1>
-				<a href="#existingclubs" class="fifthrowheaderbtns existingclubsbtn">Existing Clubs</a><a href="#sac" class="fifthrowheaderbtns startingfifthrowbtn">SAC & Space Bar</a><a href="#pitching" class="fifthrowheaderbtns pitchingfifthrowbtn">Club Pitching</a>
+				<a href="#existingclubs" class="fifthrowheaderbtns existingclubsbtn">Existing Clubs</a><a href="#sac" class="fifthrowheaderbtns startingfifthrowbtn">SAC & Space Bar</a><a href="#pulsecheck" class="fifthrowheaderbtns pitchingfifthrowbtn">Club Pulse Check</a>
 			</div>
 		</section>
 
@@ -36,10 +36,10 @@
 					<button type="submit">Amenities & Housekeeping</button>
 					</form>
 				</div>
-				<div id="pitching" class="pitching">
-					<h2>Club Pitching</h2>
+				<div id="pulsecheck" class="pitching">
+					<h2>Club Pulse Check</h2>
 					<p>
-						Pitching is a yearly event for us to know that your Fifth Row is active and also for clubs to ask for funding.<br><br>Download the pitching package here and submit to <a href="mailto:si@studentgov.sutd.edu.sg">si@studentgov.sutd.edu.sg</a> by the end of the calendar year.
+						Pulse Check is a yearly event for us to know that your Fifth Row is active and also for clubs to ask for funding.<br><br>Download the pulse check package here and submit to <a href="mailto:si@studentgov.sutd.edu.sg">si@studentgov.sutd.edu.sg</a> by the end of the calendar year.
 					</p>
 					<form method="get" action="<?php bloginfo('stylesheet_directory'); ?>/guidelinesandforms/PulseCheck.zip">
 					<button type="submit">Pulse Check Package</button>
