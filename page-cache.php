@@ -72,7 +72,7 @@
 					</li>
 					<li>
 						<p>
-							Claiming for your event
+							Managing finances for your event
 						</p>
 						<div>
 							<form method="get" action="<?php bloginfo('stylesheet_directory'); ?>/guidelinesandforms/Finance.zip">
