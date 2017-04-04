@@ -80,9 +80,19 @@
 							</form>
 						</div>
 					</li>
+          <li>
+						<p>
+							Handing over a Fifth Row
+						</p>
+						<div>
+							<form method="get" action="<?php bloginfo('stylesheet_directory'); ?>/guidelinesandforms/HotoPackage.zip">
+							<button type="submit">HOTO Package</button>
+							</form>
+						</div>
+					</li>
 					<li>
 						<p>
-							Pitching for your Fifth Row
+							Pulse check for your Fifth Row
 						</p>
 						<div>
 							<form method="get" action="<?php bloginfo('stylesheet_directory'); ?>/guidelinesandforms/PulseCheck.zip">
